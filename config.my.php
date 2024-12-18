@@ -8,10 +8,10 @@ $key = 'your_Key';
 $application_token = 'your_app_token';
 
 // By default we don't backup closed boards (less clutter)
-$backup_closed_boards = false;
+$backup_closed_boards = true;
 
 // Backup all Trello Boards from the organizations that the user has read access to
-$backup_all_organization_boards = false;
+$backup_all_organization_boards = true;
 
 // Backup all cards' attachments in a subfolder for each Trello board
 $backup_attachments = true;
